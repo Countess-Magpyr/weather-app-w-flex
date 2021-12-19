@@ -1,0 +1,163 @@
+body {
+  background: linear-gradient(
+    109.6deg,
+    rgb(17, 151, 147) 11.2%,
+    rgb(154, 214, 212) 55.4%,
+    rgb(255, 233, 171) 100.2%
+  );
+  opacity: 90%;
+  font-family: monospace;
+}
+
+cityElement {
+  text-transform: capitalize;
+}
+.weather-forecast {
+  color: cornsilk;
+  line-height: 10mm;
+  text-align: center;
+  font-size: 12pt;
+  height: calc(1.5 em + 0.75 rem + 2 px);
+  background: linear-gradient(
+    112.5deg,
+    rgb(104, 70, 119) 11.4%,
+    rgb(160, 111, 145) 60.2%
+  );
+  display: block;
+  margin: 0 auto;
+}
+
+.col-2 {
+  display: block;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  display: flex;
+  background-color: aliceblue;
+  opacity: 90%;
+  justify-content: center;
+}
+
+.temperature {
+  font-size: 28pt;
+}
+
+.btn {
+  background: linear-gradient(
+    112.5deg,
+    rgb(104, 70, 119) 11.4%,
+    rgb(160, 111, 145) 60.2%
+  );
+
+  border-color: rgb(69, 73, 83);
+  box-shadow: black;
+  border: 1px;
+}
+
+.btn:hover {
+  background: rgb(164, 80, 139);
+  cursor: grabbing;
+  border-color: rgb(164, 80, 139);
+  border-radius: 10px;
+}
+
+.currentbtn:hover {
+  background: rgb(164, 80, 139);
+  cursor: grabbing;
+  border-color: rgb(164, 80, 139);
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: 18pt;
+  color: black;
+  text-align: left;
+  display: block;
+  font-weight: 100;
+  padding-left: 1px;
+  padding-right: 10px;
+}
+
+h2 {
+  font-size: 18pt;
+  color: black;
+  text-align: left;
+  display: block;
+  padding-left: 20px;
+}
+
+ul {
+  font-size: 12pt;
+  color: black;
+  text-align: left;
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  list-style: none;
+}
+
+li {
+  text-transform: capitalize;
+}
+
+.temperature {
+  text-align: left;
+  font-size: 30pt;
+  color: black;
+}
+
+.temperatureElement {
+  text-align: left;
+  font-size: 30pt;
+  color: black;
+}
+
+.currentWeatherbox {
+  background-color: cornsilk;
+  margin-top: 1rem;
+  border-radius: 5mm;
+  width: 100%;
+  height: calc(1.5 em + 0.75 rem + 2 px);
+
+  padding-top: 1rem;
+  background-color: rgb(255, 247, 226);
+}
+
+footer {
+  color: black;
+  font-size: 8pt;
+  width: 450px;
+}
+
+.weather-app {
+  max-width: 600px;
+  display: flex;
+  border-color: rgb(69, 73, 83);
+  border: 1px;
+}
+
+.units {
+  font-size: 10pt;
+}
+
+.link {
+  color: black;
+}
+
+img {
+  margin-left: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.weather-forcast-temperature {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.special {
+  width: 100px;
+  height: 100px;
+}
